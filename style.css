@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'October_crow';
+    src: url('assets/october_crow-webfont.woff') format('woff'),
+        url('assets/October\ Crow.ttf') format('truetype');
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(26, 26, 26);
+    color: #ecf0f1;
+    font-family: 'October_crow', sans-serif;
+    font-weight: normal;
+}
+
+body,
+html {
+    background-color: black;
+    color: #ecf0f1;
+    height: 100%;
+    margin: 0;
+}
+
+img {
+    border-radius: 5px;
+}
+
+section {
+    padding: 24px 0;
+    height: 100vh;
+}
+
+section h2 {
+    font-family: 'October_crow', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-bottom: 48px;
+    font-size: 32px;
+}
+
+section h3 {
+    font-family: 'October_crow', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+header nav li a {
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingame-image,
+.ascension-update {
+    margin-right: 32px;
+    width: 640px;
+    height: 480px;
+}
+
+.steam-logo {
+    height: 50px;
+}
+
+button {
+    margin-top: 12px;
+    background-color: rgb(26, 26, 26);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+#buy-game .container {
+    display: block;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: black;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section .container .game-buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#buy-game {
+    position: relative;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    color: #ecf0f1;
+    padding: 16px 16px 70px 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
